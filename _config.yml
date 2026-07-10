@@ -12,12 +12,13 @@ repository: "MariaZofiaZimmermann/mariazofiazimmermann.github.io"
 
 author:
   name: "Maria Zimmermann"
+  bio: "Cognitive neuroscientist interested in how experience shapes the brain, with a current focus on meaning in sign and speech—from words and gestures to stories."
   avatar: "profile.png"
   location: "Poland"
   employer: "University of Warsaw"
   email: "maria.zimmermann@psych.uw.edu.pl"
   googlescholar: "https://scholar.google.pl/citations?user=GTTLxWcAAAAJ&hl=en&oi=sra"
-  github: "MariaZofiaZimmermann"
+ 
 
 publication_category:
   manuscripts:
