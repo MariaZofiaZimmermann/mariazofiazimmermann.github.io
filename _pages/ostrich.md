@@ -9,7 +9,10 @@ The <strong>ostrich</strong> is the world's largest living bird, native to the o
 In mythology and symbolism, the ostrich represents both endurance and contradiction—associated with truth and justice through its feathers in ancient Egypt, yet also burdened by the enduring myth that it buries its head in the sand, making it a symbol of denial, avoidance, or refusing to face uncomfortable realities. As a personality archetype, the ostrich reflects vigilance, independence, and survival instinct, but also defensiveness, stubbornness, sensitivity to criticism, and a tendency to react forcefully when feeling trapped, challenged, or exposed, masking vulnerability with displays of strength or intimidation.
 </div>
 
+
+
 <div style="font-size:0.5em; line-height:1.6;">
+
 Smithsonian’s National Zoo & Conservation Biology Institute. Ostrich. 
 Tresidder, Jack. The Complete Dictionary of Symbols. Chronicle Books, 2004. 
 Bailleul-LeSuer, Rozenn (ed.). Between Heaven and Earth: Birds in Ancient Egypt. Oriental Institute of the University of Chicago, 2012.
