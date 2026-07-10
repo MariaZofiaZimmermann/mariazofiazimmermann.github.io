@@ -1,12 +1,11 @@
 ---
-title: "Data & Code"
 permalink: /data-code/
 author_profile: true
 ---
 
 ## GitHub
 
-Code, analysis scripts, and research projects:
+Code and analysis scripts:
 
 - [GitHub profile](https://github.com/MariaZofiaZimmermann)
 
@@ -15,3 +14,10 @@ Code, analysis scripts, and research projects:
 Datasets and project documentation:
 
 - [OSF profile](https://osf.io/zr6am/)
+
+
+## Online Studies
+
+When recruiting participants, active studies are available here:
+
+- **Behavioural Studies:** https://pjmlab.com
