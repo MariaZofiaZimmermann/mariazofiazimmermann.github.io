@@ -7,7 +7,7 @@ name: "Maria Zimmermann"
 description: "Cognitive neuroscience of sign language, communication, and brain plasticity"
 
 url: "https://maria-zimmermann.com"
-baseurl: """
+baseurl: ""
 repository: "MariaZofiaZimmermann/mariazofiazimmermann.github.io"
 
 author:
