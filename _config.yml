@@ -6,8 +6,8 @@ title_separator: "-"
 name: "Maria Zimmermann"
 description: "Cognitive neuroscience of sign language, communication, and brain plasticity"
 
-url: "https://mariazofiazimmermann.github.io"
-baseurl: ""
+url: "https://maria-zimmermann.com"
+baseurl: """
 repository: "MariaZofiaZimmermann/mariazofiazimmermann.github.io"
 
 author:
