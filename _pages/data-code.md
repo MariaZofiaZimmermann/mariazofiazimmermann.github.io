@@ -20,4 +20,4 @@ Datasets and project documentation:
 
 When recruiting participants, active studies are available here:
 
-- **Behavioural Studies:** https://pjmlab.com
+- https://pjmlab.com
