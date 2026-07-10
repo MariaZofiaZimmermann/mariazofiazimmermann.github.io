@@ -13,7 +13,7 @@ repository: "MariaZofiaZimmermann/mariazofiazimmermann.github.io"
 author:
   name: "Maria Zimmermann"
   avatar: "profile.png"
-  bio: "Cognitive neuroscientist studying sign language, communication, narrative processing, and brain plasticity."
+  #bio: "Cognitive neuroscientist studying sign language, communication, narrative processing, and brain plasticity."
   location: "Poland"
   employer: "University of Warsaw"
   email: "maria.zimmermann@psych.uw.edu.pl"
