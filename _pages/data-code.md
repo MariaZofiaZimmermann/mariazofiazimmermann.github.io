@@ -16,4 +16,4 @@ Datasets and project documentation:
 
 When recruiting participants, active studies are available here:
 
-- https://pjmlab.com
+- (https://pjmlab.com)
