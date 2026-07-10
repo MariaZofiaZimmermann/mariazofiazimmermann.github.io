@@ -11,10 +11,12 @@ In mythology and symbolism, the ostrich represents both endurance and contradict
 
 
 
-<div style="font-size:0.5em; line-height:1.6;">
+<div style="font-size:0.5em; line-height:1.5;">
 
-Smithsonian’s National Zoo & Conservation Biology Institute. Ostrich. 
-Tresidder, Jack. The Complete Dictionary of Symbols. Chronicle Books, 2004. 
-Bailleul-LeSuer, Rozenn (ed.). Between Heaven and Earth: Birds in Ancient Egypt. Oriental Institute of the University of Chicago, 2012.
+Smithsonian’s National Zoo &amp; Conservation Biology Institute. <em>Ostrich</em>.<br>
+
+Tresidder, Jack. <em>The Complete Dictionary of Symbols</em>. Chronicle Books, 2004.<br>
+
+Bailleul-LeSuer, Rozenn (ed.). <em>Between Heaven and Earth: Birds in Ancient Egypt</em>. Oriental Institute of the University of Chicago, 2012.
 
 </div>
