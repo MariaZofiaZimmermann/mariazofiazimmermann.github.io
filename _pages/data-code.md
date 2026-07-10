@@ -4,8 +4,6 @@ permalink: /data-code/
 author_profile: true
 ---
 
-# Data & Code
-
 ## GitHub
 
 Code, analysis scripts, and research projects:
