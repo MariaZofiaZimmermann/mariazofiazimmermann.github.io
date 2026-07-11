@@ -16,9 +16,7 @@ author:
   location: "Poland"
   employer: "University of Warsaw"
   links:
-    - label: "maria.zimmermann@psych.uw.edu.pl"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:maria.zimmermann@psych.uw.edu.pl"
+  email: "maria.zimmermann@psych.uw.edu.pl"
   googlescholar: "https://scholar.google.pl/citations?user=GTTLxWcAAAAJ&hl=en&oi=sra"
  
 
