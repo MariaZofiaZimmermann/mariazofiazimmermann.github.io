@@ -44,10 +44,13 @@
 ;
 
 
-.greedy-nav .visible-links li:last-of-type {
-  margin-left: 4rem;
+.greedy-nav .visible-links > li > a[href$="/ostrich/"] {
+  display: inline-block;
+  margin-left: 4rem !important;
+  color: #7a7a7a !important;
+  transition: color 0.2s ease;
 }
 
-.greedy-nav .visible-links li:last-of-type a {
-  color: #1f77b4;
+.greedy-nav .visible-links > li > a[href$="/ostrich/"]:hover {
+  color: #555555 !important;
 }
