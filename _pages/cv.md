@@ -9,3 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
+[📄 Download my CV (PDF)](/files/CV_Maria_Zimmermann.pdf){: .btn .btn--primary}
