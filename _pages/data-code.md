@@ -20,4 +20,5 @@ When recruiting participants, active studies are available here:
 
 TESTY: 
 
-[VV test][https://maria-zimmermann.com/PJMlab_tests_visual_vernacular/]
+- [VV test](https://maria-zimmermann.com/PJMlab_tests_visual_vernacular/)
+
