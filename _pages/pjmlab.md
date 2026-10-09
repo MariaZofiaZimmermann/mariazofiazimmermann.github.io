@@ -1,5 +1,5 @@
 ---
-permalink: /data-code/
+permalink: /pjmlab/
 author_profile: true
 ---
 
