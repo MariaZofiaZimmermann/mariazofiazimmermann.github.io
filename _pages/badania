@@ -1,0 +1,62 @@
+
+---
+layout: archive
+title: "badania"
+permalink: /pjmlab/
+author_profile: true
+---
+
+<p>
+  Explore behavioral experiments and participate
+  in research.
+</p>
+
+<style>
+.experiment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.experiment-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 24px;
+  background: #fff;
+}
+
+.experiment-card h3 {
+  margin-top: 0;
+}
+
+.experiment-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #355c7d;
+  color: white !important;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.experiment-button:hover {
+  background: #23415b;
+}
+</style>
+
+<div class="experiment-grid">
+
+  <div class="experiment-card">
+    <h3>Visual Vernacular</h3>
+    <p>
+      A behavioral experiment exploring
+      visual language.
+    </p>
+    <a class="experiment-button"
+       href="https://mariazofiazimmermann.github.io/PJMlab_tests_visual_vernacular/"
+       target="_blank" rel="noopener noreferrer">
+      Start experiment →
+    </a>
+  </div>
+
+</div>
