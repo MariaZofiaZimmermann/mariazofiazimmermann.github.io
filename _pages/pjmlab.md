@@ -13,7 +13,7 @@ Datasets and project documentation:
 
 
 TESTY behawioralne online: 
-- [pjmlab: testy i rekrutacja osób badanych]<https://pjmlab.com>
+- [pjmlab: testy i rekrutacja osób badanych](https://pjmlab.com)
 - [VV test](https://maria-zimmermann.com/PJMlab_tests_visual_vernacular/)
 - [Ortografia](https://marysiaz.github.io/orto/)
 - [Fonetyka](https://marysiaz.github.io/decoding_test/)
