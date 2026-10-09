@@ -15,12 +15,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Resources"
-    url: /data-code/
+  - title: "PJM LAB"
+    url: /pjmlab/
 
   - title: "Ostrich"
     url: /ostrich/
 
-  - title: "PJM LAB"
-    url: /pjmlab/
+  
 
