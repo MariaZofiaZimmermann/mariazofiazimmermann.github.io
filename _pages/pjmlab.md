@@ -70,6 +70,25 @@ a.pjmlab-tile:focus-visible {
   color: #666666;
 }
 
+/* Wyśrodkowany kafelek fMRI */
+.pjmlab-fmri-grid {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 35px;
+}
+
+.pjmlab-fmri-grid .pjmlab-tile {
+  width: 185px;
+  max-width: 100%;
+}
+
+/* Szara, konturowa ikonka mózgu */
+.pjmlab-brain-icon {
+  width: 25px;
+  height: 25px;
+  color: #888888;
+}
+
 .pjmlab-contact {
   margin-top: 35px;
   font-size: 15px;
@@ -92,6 +111,42 @@ a.pjmlab-tile:focus-visible {
   }
 }
 </style>
+
+<h2>Badanie fMRI</h2>
+
+<p class="pjmlab-section-title">
+  Chcesz wziąć udział w naszym badaniu z użyciem obrazowania mózgu (fMRI)?
+</p>
+
+<div class="pjmlab-fmri-grid">
+
+  <a class="pjmlab-tile"
+     href="https://forms.gle/WgZLTMXtYACskeBaA"
+     target="_blank"
+     rel="noopener noreferrer">
+
+    <svg class="pjmlab-brain-icon"
+         xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         aria-hidden="true">
+      <path d="M12 18V5a3 3 0 0 0-5.8-1.1A4 4 0 0 0 3 10a4 4 0 0 0 1 7.5A3.5 3.5 0 0 0 12 18Z"/>
+      <path d="M12 18V5a3 3 0 0 1 5.8-1.1A4 4 0 0 1 21 10a4 4 0 0 1-1 7.5A3.5 3.5 0 0 1 12 18Z"/>
+      <path d="M7 8c1.5 0 2.5 1 2.5 2.5"/>
+      <path d="M17 8c-1.5 0-2.5 1-2.5 2.5"/>
+      <path d="M6 15c1.5-1 3-.5 3.5 1"/>
+      <path d="M18 15c-1.5-1-3-.5-3.5 1"/>
+    </svg>
+
+    <span class="pjmlab-label">Wypełnij ankietę zgłoszeniową</span>
+
+  </a>
+
+</div>
 
 <h2>Testy behawioralne online</h2>
 
@@ -148,6 +203,4 @@ a.pjmlab-tile:focus-visible {
   </a>
 
 </div>
-
-
 
