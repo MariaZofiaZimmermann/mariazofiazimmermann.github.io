@@ -23,8 +23,8 @@ author_profile: true
   min-width: 0;
   min-height: 95px;
   padding: 12px 7px;
-  background: #eeeeee;
-  border: 1px solid #dddddd;
+  background: #e5e5e5;
+  border: 1px solid #d5d5d5;
   border-radius: 8px;
   color: #555555 !important;
   text-decoration: none !important;
@@ -38,7 +38,7 @@ author_profile: true
 }
 
 a.pjmlab-tile:hover {
-  background: #dddddd;
+  background: #d6d6d6;
   color: #333333 !important;
   transform: translateY(-2px);
 }
@@ -128,7 +128,9 @@ a.pjmlab-tile:focus-visible {
     <span class="pjmlab-label">Fluencja semantyczna</span>
   </a>
 
-  <a class="pjmlab-tile" href="https://pjmlab.com/pjm-pct/" id="pjm-pct-link">
+  <a class="pjmlab-tile"
+     href="#"
+     onclick="var p = prompt('PJM-PCT: Wprowadź hasło dostępu'); if (p === 'pct2026') { window.location.href = 'https://pjmlab.com/pjm-pct/'; } else if (p !== null) { alert('Nieprawidłowe hasło'); } return false;">
     <span class="pjmlab-icon">&#9633;</span>
     <span class="pjmlab-label">PJM-PCT</span>
   </a>
@@ -144,37 +146,5 @@ a.pjmlab-tile:focus-visible {
   Chcesz użyć tych testów we własnych badaniach?
   Skontaktuj się z nami.
 </p>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  // Ustawienia dostępu do PJM-PCT
-  const PJM_PCT_PASSWORD = "pct2026";
-  const PJM_PCT_URL = "https://pjmlab.com/pjm-pct/";
-
-  const link = document.getElementById("pjm-pct-link");
-
-  if (link) {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-
-      const enteredPassword = prompt(
-        "PJM-PCT\n\nWprowadź hasło dostępu do testu:"
-      );
-
-      if (enteredPassword === null) {
-        return;
-      }
-
-      if (enteredPassword === PJM_PCT_PASSWORD) {
-        window.location.href = PJM_PCT_URL;
-      } else {
-        alert("Nieprawidłowe hasło. Spróbuj ponownie.");
-      }
-    });
-  }
-
-});
-</script>
 
 
