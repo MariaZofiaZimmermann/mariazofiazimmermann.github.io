@@ -149,5 +149,5 @@ a.pjmlab-tile:focus-visible {
 
 </div>
 
-Chcesz użyć tych testów we własnych badaniach? [Skontaktuj się z nami](mailto:mzf.zimmermann@gmail.com).
+
 
