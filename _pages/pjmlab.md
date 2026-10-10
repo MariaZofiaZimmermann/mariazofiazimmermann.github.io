@@ -23,10 +23,10 @@ author_profile: true
   min-width: 0;
   min-height: 95px;
   padding: 12px 7px;
-  background: #e5e5e5;
-  border: 1px solid #d5d5d5;
+  background: #d0d0d0;
+  border: 1px solid #bfbfbf;
   border-radius: 8px;
-  color: #555555 !important;
+  color: #444444 !important;
   text-decoration: none !important;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ author_profile: true
 }
 
 a.pjmlab-tile:hover {
-  background: #d6d6d6;
+  background: #c2c2c2;
   color: #333333 !important;
   transform: translateY(-2px);
 }
@@ -49,26 +49,25 @@ a.pjmlab-tile:focus-visible {
 }
 
 .pjmlab-icon {
-  color: #999999;
+  color: #888888;
   font-size: 22px;
   line-height: 1;
 }
 
 .pjmlab-label {
-  color: #555555;
+  color: #444444;
   font-size: 13px;
   font-weight: 400 !important;
   line-height: 1.35;
 }
 
 .pjmlab-soon {
-  opacity: .65;
   cursor: default;
 }
 
 .pjmlab-soon small {
   font-size: 10px;
-  color: #777777;
+  color: #666666;
 }
 
 .pjmlab-contact {
@@ -128,9 +127,7 @@ a.pjmlab-tile:focus-visible {
     <span class="pjmlab-label">Fluencja semantyczna</span>
   </a>
 
-  <a class="pjmlab-tile"
-     href="#"
-     onclick="var p = prompt('PJM-PCT: Wprowadź hasło dostępu'); if (p === 'pct2026') { window.location.href = 'https://pjmlab.com/pjm-pct/'; } else if (p !== null) { alert('Nieprawidłowe hasło'); } return false;">
+  <a class="pjmlab-tile" href="https://pjmlab.com/pjm-pct/">
     <span class="pjmlab-icon">&#9633;</span>
     <span class="pjmlab-label">PJM-PCT</span>
   </a>
