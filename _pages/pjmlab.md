@@ -23,7 +23,7 @@ author_profile: true
   min-width: 0;
   min-height: 95px;
   padding: 12px 7px;
-  background: #d0d0d0;
+  background: transparent;
   border: 1px solid #bfbfbf;
   border-radius: 8px;
   color: #444444 !important;
@@ -34,11 +34,12 @@ author_profile: true
   align-items: center;
   gap: 9px;
   text-align: center;
-  transition: background .2s, transform .2s;
+  transition: border-color .2s, transform .2s;
 }
 
 a.pjmlab-tile:hover {
-  background: #c2c2c2;
+  background: transparent;
+  border-color: #888888;
   color: #333333 !important;
   transform: translateY(-2px);
 }
@@ -140,7 +141,9 @@ a.pjmlab-tile:focus-visible {
       <path d="M18 15c-1.5-1-3-.5-3.5 1"/>
     </svg>
 
-    <span class="pjmlab-label">Wypełnij ankietę zgłoszeniową</span>
+    <span class="pjmlab-label">
+      Wypełnij ankietę zgłoszeniową
+    </span>
 
   </a>
 
@@ -201,4 +204,5 @@ a.pjmlab-tile:focus-visible {
   </a>
 
 </div>
+
 
