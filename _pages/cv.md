@@ -71,7 +71,7 @@ redirect_from:
      target="_blank"
      rel="noopener noreferrer">
     <span class="cv-icon">&#9633;</span>
-    <span class="cv-label">Download CV (PDF)</span>
+    <span class="cv-label">Download my CV (PDF)</span>
   </a>
 
 </div>
