@@ -76,6 +76,16 @@ a.pjmlab-tile:focus-visible {
   line-height: 1.6;
 }
 
+.pjmlab-contact a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pjmlab-contact a:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 600px) {
   .pjmlab-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -139,11 +149,9 @@ a.pjmlab-tile:focus-visible {
 
 </div>
 
-
 <p class="pjmlab-contact">
   Chcesz użyć tych testów we własnych badaniach?
-  <a href="mailto:mzf.zimmermann@gmail.com?subject=PJMlab%20-%20wykorzystanie%20test%C3%B3w">
-    Skontaktuj się z nami.
-  </a>
+  <a href="mailto:mzf.zimmermann@gmail.com?subject=PJMlab%20-%20wykorzystanie%20test%C3%B3w">Skontaktuj się z nami.</a>
 </p>
+
 
