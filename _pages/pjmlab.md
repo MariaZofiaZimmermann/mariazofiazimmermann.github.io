@@ -5,14 +5,14 @@ author_profile: true
 ---
 
 <style>
-/* Nagłówki sekcji */
+/* Nagłówki */
 .pjmlab-section-title {
   font-size: 17px;
   font-weight: 400 !important;
   margin: 25px 0 12px;
 }
 
-/* Siatka kafelków */
+/* Siatka */
 .pjmlab-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -21,15 +21,15 @@ author_profile: true
   margin: 12px 0 28px;
 }
 
-/* Kafelki przezroczyste */
+/* Kafelki */
 .pjmlab-tile {
   min-width: 0;
   min-height: 95px;
   padding: 12px 7px;
   background: transparent !important;
-  border: 1px solid #b0b0b0;
+  border: 1px solid currentColor;
   border-radius: 8px;
-  color: #444444 !important;
+  color: inherit !important;
   text-decoration: none !important;
   display: flex;
   flex-direction: column;
@@ -37,18 +37,26 @@ author_profile: true
   align-items: center;
   gap: 9px;
   text-align: center;
-  transition: border-color .2s, transform .2s;
+  transition: opacity .2s, transform .2s;
 }
 
-/* Efekt po najechaniu */
-a.pjmlab-tile:hover {
+/* Linki – bez narzuconych kolorów */
+a.pjmlab-tile,
+a.pjmlab-tile:visited,
+a.pjmlab-tile:hover,
+a.pjmlab-tile:active {
   background: transparent !important;
-  border-color: #777777;
-  color: #333333 !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Hover */
+a.pjmlab-tile:hover {
+  opacity: 0.7;
   transform: translateY(-2px);
 }
 
-/* Dostępność – fokus klawiatury */
+/* Fokus klawiatury */
 a.pjmlab-tile:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
@@ -56,27 +64,28 @@ a.pjmlab-tile:focus-visible {
 
 /* Ikony */
 .pjmlab-icon {
-  color: #777777;
+  color: inherit !important;
   font-size: 22px;
   line-height: 1;
 }
 
 /* Napisy */
 .pjmlab-label {
-  color: #444444;
+  color: inherit !important;
   font-size: 13px;
   font-weight: 400 !important;
   line-height: 1.35;
 }
 
-/* Kafelki Wkrótce */
+/* Wkrótce */
 .pjmlab-soon {
   cursor: default;
 }
 
 .pjmlab-soon small {
   font-size: 10px;
-  color: #666666;
+  color: inherit !important;
+  opacity: 0.7;
 }
 
 /* Wyśrodkowany kafelek fMRI */
@@ -91,11 +100,11 @@ a.pjmlab-tile:focus-visible {
   max-width: 100%;
 }
 
-/* Konturowa ikonka mózgu */
+/* Ikonka mózgu */
 .pjmlab-brain-icon {
   width: 25px;
   height: 25px;
-  color: #777777;
+  color: inherit !important;
 }
 
 /* Kontakt */
@@ -115,33 +124,26 @@ a.pjmlab-tile:focus-visible {
   opacity: 0.7;
 }
 
-/* CIEMNY MOTYW */
-@media (prefers-color-scheme: dark) {
+/* Dziedziczenie koloru tekstu z motywu strony */
+.page__content .pjmlab-grid,
+.page__content .pjmlab-fmri-grid {
+  color: inherit;
+}
 
-  .pjmlab-tile {
-    background: transparent !important;
-    border-color: #888888;
-    color: #eeeeee !important;
-  }
+/* Wymuszenie spójności kolorów */
+.page__content .pjmlab-tile,
+.page__content .pjmlab-tile:visited,
+.page__content .pjmlab-tile:hover,
+.page__content .pjmlab-tile .pjmlab-label,
+.page__content .pjmlab-tile .pjmlab-icon,
+.page__content .pjmlab-tile .pjmlab-brain-icon,
+.page__content .pjmlab-tile small {
+  color: inherit !important;
+}
 
-  .pjmlab-label {
-    color: #eeeeee;
-  }
-
-  .pjmlab-icon,
-  .pjmlab-brain-icon {
-    color: #cccccc;
-  }
-
-  .pjmlab-soon small {
-    color: #bbbbbb;
-  }
-
-  a.pjmlab-tile:hover {
-    background: transparent !important;
-    border-color: #dddddd;
-    color: #ffffff !important;
-  }
+/* Delikatniejsze obramowania */
+.page__content .pjmlab-tile {
+  border-color: currentColor;
 }
 
 /* Telefony */
@@ -218,7 +220,9 @@ a.pjmlab-tile:focus-visible {
 
 </div>
 
-<p class="pjmlab-section-title">Polski język migowy (PJM)</p>
+<p class="pjmlab-section-title">
+  Polski język migowy (PJM)
+</p>
 
 <div class="pjmlab-grid">
 
