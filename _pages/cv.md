@@ -64,8 +64,6 @@ redirect_from:
 }
 </style>
 
-<h2>Curriculum Vitae</h2>
-
 <div class="cv-grid">
 
   <a class="cv-tile"
@@ -73,7 +71,7 @@ redirect_from:
      target="_blank"
      rel="noopener noreferrer">
     <span class="cv-icon">&#9633;</span>
-    <span class="cv-label">Pobierz CV (PDF)</span>
+    <span class="cv-label">Download CV (PDF)</span>
   </a>
 
 </div>
