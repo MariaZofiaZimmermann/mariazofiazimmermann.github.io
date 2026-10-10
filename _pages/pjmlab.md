@@ -5,18 +5,24 @@ author_profile: true
 ---
 
 <style>
+.pjmlab-section-title {
+  font-size: 17px;
+  font-weight: 400 !important;
+  margin: 25px 0 12px;
+}
+
 .pjmlab-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  max-width: 650px;
-  margin: 15px 0 30px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 760px;
+  margin: 12px 0 28px;
 }
 
 .pjmlab-tile {
   min-width: 0;
   min-height: 95px;
-  padding: 12px 8px;
+  padding: 12px 7px;
   background: #eeeeee;
   border: 1px solid #dddddd;
   border-radius: 8px;
@@ -44,15 +50,15 @@ a.pjmlab-tile:focus-visible {
 
 .pjmlab-icon {
   color: #999999;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 1;
 }
 
 .pjmlab-label {
   color: #555555;
   font-size: 13px;
-  font-weight: 500;
-  line-height: 1.3;
+  font-weight: 400 !important;
+  line-height: 1.35;
 }
 
 .pjmlab-soon {
@@ -66,12 +72,12 @@ a.pjmlab-tile:focus-visible {
 }
 
 .pjmlab-contact {
-  margin-top: 30px;
+  margin-top: 35px;
   font-size: 15px;
   line-height: 1.6;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .pjmlab-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -80,7 +86,7 @@ a.pjmlab-tile:focus-visible {
 
 <h2>Testy behawioralne online</h2>
 
-<h3>Język polski</h3>
+<p class="pjmlab-section-title">Język polski</p>
 
 <div class="pjmlab-grid">
 
@@ -100,9 +106,15 @@ a.pjmlab-tile:focus-visible {
     <small>Wkrótce</small>
   </div>
 
+  <div class="pjmlab-tile pjmlab-soon">
+    <span class="pjmlab-icon">&#9633;</span>
+    <span class="pjmlab-label">Gramatyka</span>
+    <small>Wkrótce</small>
+  </div>
+
 </div>
 
-<h3>Polski język migowy (PJM)</h3>
+<p class="pjmlab-section-title">Polski język migowy (PJM)</p>
 
 <div class="pjmlab-grid">
 
@@ -122,12 +134,6 @@ a.pjmlab-tile:focus-visible {
     <small>Wkrótce</small>
   </div>
 
-  <div class="pjmlab-tile pjmlab-soon">
-    <span class="pjmlab-icon">&#9633;</span>
-    <span class="pjmlab-label">Gramatyka</span>
-    <small>Wkrótce</small>
-  </div>
-
   <a class="pjmlab-tile" href="https://maria-zimmermann.com/PJMlab_tests_visual_vernacular/">
     <span class="pjmlab-icon">&#9633;</span>
     <span class="pjmlab-label">Visual Vernacular</span>
@@ -137,5 +143,6 @@ a.pjmlab-tile:focus-visible {
 
 <p class="pjmlab-contact">
   Chcesz użyć tych testów we własnych badaniach?
-  <strong>Skontaktuj się z nami.</strong>
+  Skontaktuj się z nami.
 </p>
+
