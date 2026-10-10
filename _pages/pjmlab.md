@@ -1,4 +1,3 @@
-
 ---
 permalink: /pjmlab/
 author_profile: true
