@@ -112,8 +112,6 @@ a.pjmlab-tile:focus-visible {
 }
 </style>
 
-<h2>Badanie fMRI</h2>
-
 <p class="pjmlab-section-title">
   Chcesz wziąć udział w naszym badaniu z użyciem obrazowania mózgu (fMRI)?
 </p>
