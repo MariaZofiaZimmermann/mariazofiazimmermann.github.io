@@ -3,12 +3,6 @@ permalink: /pjmlab/
 author_profile: true
 ---
 
-
----
-permalink: /pjmlab/
-author_profile: true
----
-
 <style>
 .pjm-contact {
   background: #f3f6fa;
