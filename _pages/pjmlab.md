@@ -5,12 +5,14 @@ author_profile: true
 ---
 
 <style>
+/* Nagłówki sekcji */
 .pjmlab-section-title {
   font-size: 17px;
   font-weight: 400 !important;
   margin: 25px 0 12px;
 }
 
+/* Siatka kafelków */
 .pjmlab-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -19,12 +21,13 @@ author_profile: true
   margin: 12px 0 28px;
 }
 
+/* Kafelki przezroczyste */
 .pjmlab-tile {
   min-width: 0;
   min-height: 95px;
   padding: 12px 7px;
-  background: transparent;
-  border: 1px solid #bfbfbf;
+  background: transparent !important;
+  border: 1px solid #b0b0b0;
   border-radius: 8px;
   color: #444444 !important;
   text-decoration: none !important;
@@ -37,24 +40,28 @@ author_profile: true
   transition: border-color .2s, transform .2s;
 }
 
+/* Efekt po najechaniu */
 a.pjmlab-tile:hover {
-  background: transparent;
-  border-color: #888888;
+  background: transparent !important;
+  border-color: #777777;
   color: #333333 !important;
   transform: translateY(-2px);
 }
 
+/* Dostępność – fokus klawiatury */
 a.pjmlab-tile:focus-visible {
-  outline: 2px solid #777777;
+  outline: 2px solid currentColor;
   outline-offset: 3px;
 }
 
+/* Ikony */
 .pjmlab-icon {
-  color: #888888;
+  color: #777777;
   font-size: 22px;
   line-height: 1;
 }
 
+/* Napisy */
 .pjmlab-label {
   color: #444444;
   font-size: 13px;
@@ -62,6 +69,7 @@ a.pjmlab-tile:focus-visible {
   line-height: 1.35;
 }
 
+/* Kafelki Wkrótce */
 .pjmlab-soon {
   cursor: default;
 }
@@ -83,13 +91,14 @@ a.pjmlab-tile:focus-visible {
   max-width: 100%;
 }
 
-/* Szara, konturowa ikonka mózgu */
+/* Konturowa ikonka mózgu */
 .pjmlab-brain-icon {
   width: 25px;
   height: 25px;
-  color: #888888;
+  color: #777777;
 }
 
+/* Kontakt */
 .pjmlab-contact {
   margin-top: 35px;
   font-size: 15px;
@@ -106,6 +115,36 @@ a.pjmlab-tile:focus-visible {
   opacity: 0.7;
 }
 
+/* CIEMNY MOTYW */
+@media (prefers-color-scheme: dark) {
+
+  .pjmlab-tile {
+    background: transparent !important;
+    border-color: #888888;
+    color: #eeeeee !important;
+  }
+
+  .pjmlab-label {
+    color: #eeeeee;
+  }
+
+  .pjmlab-icon,
+  .pjmlab-brain-icon {
+    color: #cccccc;
+  }
+
+  .pjmlab-soon small {
+    color: #bbbbbb;
+  }
+
+  a.pjmlab-tile:hover {
+    background: transparent !important;
+    border-color: #dddddd;
+    color: #ffffff !important;
+  }
+}
+
+/* Telefony */
 @media (max-width: 600px) {
   .pjmlab-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
