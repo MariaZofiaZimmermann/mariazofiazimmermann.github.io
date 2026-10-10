@@ -139,9 +139,11 @@ a.pjmlab-tile:focus-visible {
 
 </div>
 
+
 <p class="pjmlab-contact">
   Chcesz użyć tych testów we własnych badaniach?
-  Skontaktuj się z nami.
+  <a href="mailto:mzf.zimmermann@gmail.com?subject=PJMlab%20-%20wykorzystanie%20test%C3%B3w">
+    Skontaktuj się z nami.
+  </a>
 </p>
-
 
